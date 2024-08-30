@@ -1,0 +1,58 @@
+.navbar {
+    background-color: #3d4d6a;
+    color: white;
+}
+
+h1,
+h3,
+.card-title {
+    color: #3d4d6a;
+}
+
+.bi,
+a {
+    color: #47b2e4;
+}
+
+.active {
+    background-color: rgba(180, 180, 197, 0.212);
+    border-radius: 10px;
+}
+
+li {
+    list-style: none;
+}
+
+.img-card {
+    max-height: 250px;
+}
+
+footer {
+    background-color: #3d4d6a;
+    color: white;
+}
+
+.back-to-top i {
+    font-size: 24px;
+    color: #fff;
+    line-height: 0;
+}
+
+.back-to-top.active {
+    visibility: visible;
+    opacity: 1;
+}
+
+.back-to-top {
+    position: fixed;
+    visibility: hidden;
+    opacity: 0;
+    right: 15px;
+    bottom: 15px;
+    z-index: 996;
+    background: #47b2e4;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    transition: all 0.4s;
+}
